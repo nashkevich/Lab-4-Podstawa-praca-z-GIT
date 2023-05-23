@@ -1,4 +1,2 @@
 #!/bin/bash
-function date() {
-    echo Hello World
-}
+date +"%m-%d-%y"
