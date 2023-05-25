@@ -1,2 +1,4 @@
 #!/bin/bash
-date +"%m-%d-%y"
+case $1 in
+--date) date +"%m-%d-%y"
+esac 
