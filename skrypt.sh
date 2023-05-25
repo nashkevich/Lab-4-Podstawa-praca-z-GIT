@@ -5,4 +5,10 @@ do
   touch file_$i.txt
 done;;
 --date) date +"%m-%d-%y";;
+--logs30) echo "Hom many files you want?"
+read num;
+for (( a=1; a<=num; a++ ))
+do
+  touch newfile_$a.txt
+done
 esac
