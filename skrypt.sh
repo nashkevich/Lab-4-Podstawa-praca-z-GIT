@@ -10,5 +10,6 @@ read num;
 for (( a=1; a<=num; a++ ))
 do
   touch newfile_$a.txt
-done
+done;;
+--help) echo "All cases you have: --date , --log , log30"
 esac
